@@ -1,0 +1,19 @@
+.wallpaper
+{
+  &-container
+  {
+   z-index: -1;
+    background-color: black;
+    display: flex;
+    position:fixed;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  width: 100%;
+  margin: 0 auto;
+  opacity:0.5 ;
+  filter:blur(1px);
+
+}
