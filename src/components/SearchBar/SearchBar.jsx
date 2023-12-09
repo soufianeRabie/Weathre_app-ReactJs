@@ -47,7 +47,6 @@ export const SearchBar = () => {
             fetch(`https://api.geoapify.com/v1/geocode/autocomplete?text=${value}&type=city&format=json&apiKey=${GEO_API_KEY}`)
                 .then(response =>response.json())
                 .then(json=> setCities(json.results.map(data =>{
-                    console.log(data.city)
                     const {lon , lat , city , country , formatted} = data ;
                     return {lon ,lat ,city ,country , formatted}
                 })))
@@ -88,7 +87,6 @@ export const SearchBar = () => {
                 <Autocomplete className= {styles.searchInput}
 
                               getOptionLabel={(options)=>{
-                                  console.log("a",options)
                                   return options.formatted
                               }}
 

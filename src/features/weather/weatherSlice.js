@@ -29,7 +29,6 @@ export const weatherSlice = createSlice(
             {
                 setData:  (state , action) =>
                 {
-                    console.log(action.payload);
                     const {main , weather , sys , wind ,name ,clouds } = action.payload;
                     state.name = name;
                     state.main = main;
