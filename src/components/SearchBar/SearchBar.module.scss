@@ -1,6 +1,10 @@
-.searchContainer{
-  margin : 3rem auto 0 ;
+@import "src/assets/scss/variables";
+.searchContainer {
   display: flex;
-  gap : 1rem;
-
+  gap: 1rem;
+  margin: 2rem auto 0;
 }
+.searchInput{
+  width: 100%;
+}
+
