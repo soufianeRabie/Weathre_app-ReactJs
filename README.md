@@ -1,5 +1,5 @@
 # Weather APP
-Created by JAMAOUI Mouad : https://jamaoui.github.io/reactjs_weather_app/
+Created by RABYA SOUFIANE :https://github.com/soufianeRabie/Weathre_app-ReactJs
 
 
 # Getting Started with Create React App
